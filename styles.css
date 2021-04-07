@@ -9,7 +9,7 @@ body {
     justify-content: center;
     margin: none;
     flex-direction: column;
-    background-color: #81b29a;
+    background-color: #00b2ca;
 }
 
 .tip {
@@ -70,3 +70,18 @@ body {
     transform-origin: bottom center;
     animation: tick 1200ms ease-in-out infinite;
 }
+
+#checkboxes {
+    display:flex;
+}
+
+#checkboxes, div{
+    margin-left: 10px;
+} 
+
+#timer {
+    font-size: 45px;
+    color: black;
+    align-items: center;
+    align-content: center;
+} 
